@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3 {
+            text-align: center;
+            width: fit-content;
+            border: solid;
+            width: 80%;
+            margin-left: 50px;
+            padding: 12px;
+            text-shadow: 1px 1px 1px lightpink;
+
+
+
+            box-shadow: -2px -2px 6px 6px lightpink inset, 2px 2px 6px 6px inset rgb(214, 221, 221)
+        }
+
+        .row1 {
+
+
+            display: flex;
+
+
+
+            border-radius: 10px;
+
+
+
+            /* 
+            margin: 40px 40px 40px 40px;
+            box-shadow: 5px 3px 5px 5px rgb(96, 94, 94);
+ */
+
+        }
+
+        .c:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            font-style: italic;
+            font-size: 15px;
+            background-color: lightpink;
+
+        }
+
+        .c {
+
+            width: 30px;
+            height: 100px;
+
+
+
+
+
+            border-radius: 10px;
+
+
+            align-content: center;
+            padding: 3rem;
+
+
+
+
+            background-color: lightblue;
+
+
+            margin: 40px 40px 40px 40px;
+            box-shadow: 5px 3px 5px 5px rgb(96, 94, 94);
+
+
+        }
+
+        .b:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            font-style: italic;
+            font-size: 15px;
+            background-color: lemonchiffon;
+
+        }
+
+        .b {
+
+            width: 30px;
+            height: 100px;
+
+
+
+
+
+            border-radius: 10px;
+
+
+            align-content: center;
+            padding: 3rem;
+
+
+
+
+            background-color: lightblue;
+
+
+            margin: 40px 40px 40px 40px;
+            box-shadow: 5px 3px 5px 5px rgb(96, 94, 94);
+        }
+
+        .c:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            font-style: italic;
+            font-size: 15px;
+            background-color: lightpink;
+
+        }
+
+        .c {
+
+            width: 30px;
+            height: 100px;
+
+
+
+
+
+            border-radius: 10px;
+
+
+            align-content: center;
+            padding: 3rem;
+
+
+
+
+            background-color: lightblue;
+
+
+            margin: 40px 40px 40px 40px;
+            box-shadow: 5px 3px 5px 5px rgb(96, 94, 94);
+        }
+
+        .d:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            font-style: italic;
+            font-size: 15px;
+            background-color: green;
+
+        }
+
+        .d {
+
+            width: 30px;
+            height: 100px;
+
+
+
+
+
+            border-radius: 10px;
+
+
+            align-content: center;
+            padding: 3rem;
+
+
+
+
+            background-color: lightblue;
+
+
+            margin: 40px 40px 40px 40px;
+            box-shadow: 5px 3px 5px 5px rgb(96, 94, 94);
+        }
+
+        .c {
+
+            width: 30px;
+            height: 100px;
+
+
+
+
+
+            border-radius: 10px;
+
+
+            align-content: center;
+            padding: 3rem;
+
+
+
+
+            background-color: lightseagreen;
+
+
+            margin: 40px 40px 40px 40px;
+            box-shadow: 5px 3px 5px 5px rgb(96, 94, 94);
+        }
+
+        .e:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            font-style: italic;
+            font-size: 15px;
+            background-color: lightcoral;
+
+        }
+
+        .e {
+
+            width: 30px;
+            height: 100px;
+
+
+
+
+
+            border-radius: 10px;
+
+
+            align-content: center;
+            padding: 3rem;
+
+
+
+
+            background-color: orange;
+
+
+
+
+            margin: 40px 40px 40px 40px;
+            box-shadow: 5px 3px 5px 5px rgb(96, 94, 94);
+
+
+        }
+
+
+        .row2 {
+
+
+            display: flex;
+
+
+
+
+
+
+
+        }
+
+        .a1:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            font-style: italic;
+            font-size: 15px;
+            background-color: lightcoral;
+
+        }
+
+        .a1 {
+
+            width: 30px;
+            height: 100px;
+
+
+
+
+
+            border-radius: 10px;
+
+
+            align-content: center;
+            padding: 3rem;
+
+
+
+
+            background-color: orange;
+
+
+
+
+            margin: 40px 40px 40px 40px;
+            box-shadow: 5px 3px 5px 5px rgb(96, 94, 94);
+
+
+        }
+
+        .a1:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            font-style: italic;
+            font-size: 15px;
+            background-color: lightgreen;
+
+        }
+
+        .a1 {
+
+            width: 30px;
+            height: 100px;
+
+
+
+
+
+            border-radius: 10px;
+
+
+            align-content: center;
+            padding: 3rem;
+
+
+
+
+            background-color: orange;
+
+
+
+
+            margin: 40px 40px 40px 40px;
+            box-shadow: 5px 3px 5px 5px rgb(96, 94, 94);
+
+
+        }
+
+        .a1:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            font-style: italic;
+            font-size: 15px;
+            background-color: lightcoral;
+
+        }
+
+        .a1 {
+
+            width: 30px;
+            height: 100px;
+
+
+
+
+
+            border-radius: 10px;
+
+
+            align-content: center;
+            padding: 3rem;
+
+
+
+
+            background-color: orange;
+
+
+
+
+            margin: 40px 40px 40px 40px;
+            box-shadow: 5px 3px 5px 5px rgb(96, 94, 94);
+
+
+        }
+
+        .b1:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            font-style: italic;
+            font-size: 15px;
+            background-color: lightcoral;
+
+        }
+
+        .b1 {
+
+            width: 30px;
+            height: 100px;
+
+
+
+
+
+            border-radius: 10px;
+
+
+            align-content: center;
+            padding: 3rem;
+
+
+
+
+            background-color: orange;
+
+
+
+
+            margin: 40px 40px 40px 40px;
+            box-shadow: 5px 3px 5px 5px rgb(96, 94, 94);
+
+
+        }
+
+        .a1:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            font-style: italic;
+            font-size: 15px;
+            background-color: lightcoral;
+
+        }
+
+        .a1 {
+
+            width: 30px;
+            height: 100px;
+
+
+
+
+
+            border-radius: 10px;
+
+
+            align-content: center;
+            padding: 3rem;
+
+
+
+
+            background-color: lightgray;
+
+
+
+
+            margin: 40px 40px 40px 40px;
+            box-shadow: 5px 3px 5px 5px rgb(96, 94, 94);
+
+
+        }
+
+        .c1:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            font-style: oblique;
+            font-size: 15px;
+            font-weight: 100;
+            background-color: skyblue;
+
+        }
+
+        .c1 {
+
+            width: 30px;
+            height: 100px;
+
+
+
+
+
+            border-radius: 10px;
+
+
+            align-content: center;
+            padding: 3rem;
+
+
+
+
+            background-color: limegreen;
+
+
+
+
+            margin: 40px 40px 40px 40px;
+            box-shadow: 5px 3px 5px 5px rgb(96, 94, 94);
+
+
+        }
+
+        .d1:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            font-style: italic;
+            font-size: 15px;
+            background-color: lightcoral;
+
+        }
+
+        .d1 {
+
+            width: 30px;
+            height: 100px;
+
+
+
+
+
+            border-radius: 10px;
+
+
+            align-content: center;
+            padding: 3rem;
+
+
+
+
+            background-color: lightgoldenrodyellow;
+
+
+
+
+            margin: 40px 40px 40px 40px;
+            box-shadow: 5px 3px 5px 5px rgb(96, 94, 94);
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>Box Shadow and Font-families</h3>
+    <div class="row1">
+
+
+
+
+
+
+
+        <div class="b">
+            <p>sunil</p>
+
+
+
+
+
+
+
+        </div>
+        <div class="c">
+            <p>Gopi</p>
+
+
+
+
+
+
+
+        </div>
+        <div class="d">
+            <p>Krishna </p>
+
+
+
+
+
+
+
+        </div>
+        <div class="e">
+            <p>Srikanth</p>
+
+
+
+
+
+        </div>
+    </div>
+    <div class="row2">
+
+        <div class="a1">
+            <p>Santosh</p>
+
+
+
+
+
+
+        </div>
+        <div class="b1">
+            <p>Mani</p>
+
+
+
+
+
+
+        </div>
+        <div class="c1">
+            <p>Pavan</p>
+
+
+
+
+
+
+        </div>
+        <div class="d1">
+            <p>Sanju</p>
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
